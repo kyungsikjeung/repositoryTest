@@ -1,0 +1,2 @@
+﻿-- 톨게이트 들어가는 방법 --
+\\192.168.1.2\Project\2017\2017-01 KPC\tollgate-admin\src
