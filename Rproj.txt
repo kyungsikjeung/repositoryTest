@@ -1,0 +1,9 @@
+경로: 
+1.작업할경로
+http://localhost:8080/admin/manager/managermng
+
+2. 테스트 홈 경로.
+http://localhost:8080/test/style1
+
+-> 타일즈 베껴오기..
+
