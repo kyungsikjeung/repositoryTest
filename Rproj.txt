@@ -11,4 +11,11 @@ http://localhost:8080/test/style1
 http://localhost:8080/system/rolemng
 
 
+manager/managermng -- 이곳에 해야하는지..
+
+// 주소를 쓰면 패키지 컨트롤러 , 다오 , vo 서비스 패키지명을 만들어주는..
+
+
+
+
 

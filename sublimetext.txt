@@ -1,0 +1,5 @@
+Ctrl + Alt + C // Camel
+Ctrl + Alt + C + S // snake
+Ctrl + Alt + Shift + S // SNAKE
+Ctrl + K + U // 대문자
+Ctrl + K + L // 소문자
