@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<included scan="true" scanPeriod="2 seconds">
+
+	<!-- 환경변수 설정 -->
+	<property name="FILE_LOG_FOLDER" value="/logs" />
+
+	<!-- 공용파일 Include -->
+	<include resource="config/logback.shared.xml" />
+	
+	<!-- 개별 LOGGING 정책 설정 -->
+	<!-- <logger name="jdbc.sqlonly" level="ERROR" /> -->
+	<!-- <logger name="jdbc.sqltiming" level="INFO" /> -->
+	<!-- <logger name="jdbc.audit" level="ERROR" /> -->
+	<!-- <logger name="jdbc.resultset" level="ERROR" /> -->
+	<!-- <logger name="jdbc.resultsettable" level="INFO" /> -->
+	<!-- <logger name="jdbc.connection" level="ERROR" /> -->
+	<!-- <logger name="org.mybatis" level="INFO" /> -->
+	<!-- <logger name="org.apache.http" level="INFO" /> -->
+	
+	<!-- <logger name="org.springframework.core" level="INFO" /> -->
+	<!-- <logger name="org.springframework.beans" level="INFO" /> -->
+	<!-- <logger name="org.springframework.context" level="INFO" /> -->
+	<!-- <logger name="org.springframework.web" level="INFO" /> -->
+	<!-- <logger name="org.springframework" level="INFO" /> -->
+	
+	<!-- <logger name="kr.co.workarts" level="INFO" /> -->
+	
+	<!-- ROOT LEVEL LOGGING 정책 설정 -->
+	<root level="DEBUG">
+		<appender-ref ref="CONSOLE"/>
+		<appender-ref ref="FILE"/>
+		<appender-ref ref="ROLLING"/>
+		<appender-ref ref="ROLLING_WARN"/>
+	</root>
+
+</included>

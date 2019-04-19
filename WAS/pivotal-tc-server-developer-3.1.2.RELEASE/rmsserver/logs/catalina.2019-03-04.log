@@ -1,0 +1,607 @@
+04-Mar-2019 08:18:26.839 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 08:18:26.841 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 08:18:26.983 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 146 ms
+04-Mar-2019 08:18:27.413 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:18:28.482 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:18:28.594 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 107 ms
+04-Mar-2019 08:18:28.607 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 08:18:28.607 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 08:18:36.281 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 08:18:43.061 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 08:18:43.178 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 08:18:43.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 124 ms
+04-Mar-2019 08:18:43.198 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:18:43.199 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:23:29.325 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:23:29.378 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:23:29.429 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 08:23:29.452 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 08:23:29.453 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 08:23:29.466 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:23:29.466 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:23:29.936 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 08:23:29.937 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 08:23:30.089 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 155 ms
+04-Mar-2019 08:23:30.425 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:23:31.534 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:23:31.633 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 94 ms
+04-Mar-2019 08:23:31.650 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 08:23:31.650 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 08:23:38.407 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 08:23:45.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 08:23:45.395 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 08:23:45.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 112 ms
+04-Mar-2019 08:23:45.415 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:23:45.416 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:31:49.446 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:31:49.499 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:31:49.550 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 08:31:49.576 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 08:31:49.576 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 08:31:49.576 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 08:31:49.577 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 08:31:49.577 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 08:31:49.604 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:31:49.604 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:31:50.130 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 08:31:50.131 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 08:31:50.267 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 139 ms
+04-Mar-2019 08:31:50.665 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:31:51.781 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 08:31:51.924 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 137 ms
+04-Mar-2019 08:31:51.948 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 08:31:51.949 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 08:31:58.419 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 08:32:05.403 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 08:32:05.523 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 08:32:05.534 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 129 ms
+04-Mar-2019 08:32:05.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 08:32:05.546 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:25:01.974 INFO [RMI TCP Connection(26)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:25:02.027 INFO [RMI TCP Connection(26)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:25:02.078 INFO [RMI TCP Connection(26)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 10:25:02.103 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 10:25:02.103 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 10:25:02.104 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 10:25:02.104 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 10:25:02.105 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 10:25:02.122 INFO [RMI TCP Connection(26)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:25:02.122 INFO [RMI TCP Connection(26)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:25:02.660 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 10:25:02.661 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 10:25:02.796 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 138 ms
+04-Mar-2019 10:25:03.168 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:25:04.281 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:25:04.395 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 108 ms
+04-Mar-2019 10:25:04.414 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 10:25:04.414 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 10:25:11.177 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 10:25:18.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 10:25:18.447 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 10:25:18.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 113 ms
+04-Mar-2019 10:25:18.465 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:25:18.466 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:53:47.516 INFO [RMI TCP Connection(10)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:53:47.569 INFO [RMI TCP Connection(10)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:53:47.620 INFO [RMI TCP Connection(10)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 10:53:47.648 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 10:53:47.648 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 10:53:47.649 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 10:53:47.650 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 10:53:47.650 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 10:53:47.668 INFO [RMI TCP Connection(10)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:53:47.668 INFO [RMI TCP Connection(10)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:53:48.183 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 10:53:48.185 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 10:53:48.316 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 135 ms
+04-Mar-2019 10:53:48.697 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:53:49.797 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:53:49.884 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 82 ms
+04-Mar-2019 10:53:49.897 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 10:53:49.897 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 10:53:56.272 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 10:54:03.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 10:54:03.127 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 10:54:03.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 101 ms
+04-Mar-2019 10:54:03.143 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:54:03.144 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:57:27.798 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:57:27.851 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:57:27.901 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 10:57:27.926 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 10:57:27.926 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 10:57:27.927 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 10:57:27.927 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 10:57:27.928 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 10:57:27.944 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:57:27.944 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:57:28.444 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 10:57:28.445 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 10:57:28.578 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 136 ms
+04-Mar-2019 10:57:28.951 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:57:30.084 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 10:57:30.174 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 85 ms
+04-Mar-2019 10:57:30.189 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 10:57:30.189 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 10:57:36.701 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 10:57:43.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 10:57:43.341 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 10:57:43.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 102 ms
+04-Mar-2019 10:57:43.357 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 10:57:43.358 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:07:13.544 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:07:13.597 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:07:13.647 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 11:07:13.675 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 11:07:13.676 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 11:07:13.688 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:07:13.688 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:07:14.216 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 11:07:14.218 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 11:07:14.345 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 130 ms
+04-Mar-2019 11:07:14.702 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:07:15.827 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:07:15.929 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 97 ms
+04-Mar-2019 11:07:15.944 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 11:07:15.944 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 11:07:22.440 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 11:07:29.093 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 11:07:29.195 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 11:07:29.202 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 108 ms
+04-Mar-2019 11:07:29.211 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:07:29.212 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:43:47.949 INFO [RMI TCP Connection(11)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:43:48.001 INFO [RMI TCP Connection(11)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:43:48.053 INFO [RMI TCP Connection(11)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 11:43:48.078 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 11:43:48.078 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 11:43:48.078 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 11:43:48.079 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 11:43:48.079 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 11:43:48.093 INFO [RMI TCP Connection(11)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:43:48.093 INFO [RMI TCP Connection(11)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:43:48.631 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 11:43:48.633 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 11:43:48.777 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 149 ms
+04-Mar-2019 11:43:49.131 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:43:50.239 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 11:43:50.328 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 83 ms
+04-Mar-2019 11:43:50.342 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 11:43:50.342 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 11:43:56.829 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 11:44:03.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 11:44:03.898 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 11:44:03.906 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 116 ms
+04-Mar-2019 11:44:03.916 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 11:44:03.917 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:14:56.345 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:14:56.346 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:14:56.874 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 531 ms
+04-Mar-2019 13:14:57.445 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:14:58.566 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:14:58.661 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 90 ms
+04-Mar-2019 13:14:58.675 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:14:58.675 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:15:05.379 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:15:12.627 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:15:12.749 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:15:12.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 130 ms
+04-Mar-2019 13:15:12.772 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:15:12.773 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:15:58.098 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:15:58.151 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:15:58.202 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 13:15:58.226 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:15:58.227 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:15:58.248 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:15:58.248 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:15:58.723 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:15:58.725 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:15:58.900 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 180 ms
+04-Mar-2019 13:15:59.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:16:00.440 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:16:00.505 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 58 ms
+04-Mar-2019 13:16:00.519 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:16:00.519 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:16:07.140 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:16:13.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:16:13.962 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:16:13.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 108 ms
+04-Mar-2019 13:16:13.978 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:16:13.979 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:18:23.343 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:18:23.396 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:18:23.447 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 13:18:23.479 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:18:23.479 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:18:23.479 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:18:23.480 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:18:23.480 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 13:18:23.494 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:18:23.494 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:18:24.035 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:18:24.037 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:18:24.188 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 158 ms
+04-Mar-2019 13:18:24.552 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:18:25.683 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:18:25.747 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 58 ms
+04-Mar-2019 13:18:25.761 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:18:25.761 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:18:32.411 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:18:40.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:18:40.353 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:18:40.360 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 126 ms
+04-Mar-2019 13:18:40.369 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:18:40.370 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:19:32.458 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:19:32.511 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:19:32.562 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 13:19:32.597 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:19:32.597 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:19:32.598 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:19:32.598 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:19:32.599 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 13:19:32.616 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:19:32.617 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:19:33.108 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:19:33.110 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:19:33.254 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 148 ms
+04-Mar-2019 13:19:33.603 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:19:34.711 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:19:34.781 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 64 ms
+04-Mar-2019 13:19:34.796 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:19:34.796 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:19:41.731 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:19:48.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:19:48.617 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:19:48.625 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 119 ms
+04-Mar-2019 13:19:48.633 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:19:48.634 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:21:11.230 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:21:11.283 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:21:11.334 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 13:21:11.359 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:21:11.359 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:21:11.359 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:21:11.360 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:21:11.361 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 13:21:11.374 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:21:11.374 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:21:11.866 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:21:11.868 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:21:11.991 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 128 ms
+04-Mar-2019 13:21:12.372 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:21:13.595 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:21:13.656 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 57 ms
+04-Mar-2019 13:21:13.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:21:13.672 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:21:20.444 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:21:27.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:21:27.539 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:21:27.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 113 ms
+04-Mar-2019 13:21:27.573 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:21:27.574 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:24:24.517 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:24:24.569 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:24:24.620 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 13:24:24.648 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:24:24.648 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:24:24.649 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:24:24.649 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:24:24.650 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 13:24:24.665 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:24:24.665 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:24:25.168 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:24:25.169 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:24:25.296 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 131 ms
+04-Mar-2019 13:24:25.658 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:24:26.819 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:24:26.884 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 59 ms
+04-Mar-2019 13:24:26.897 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:24:26.897 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:24:33.459 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:24:40.800 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:24:40.908 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:24:40.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 115 ms
+04-Mar-2019 13:24:40.925 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:24:40.926 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:29:57.220 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:29:57.271 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:29:57.322 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 13:29:57.350 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:29:57.350 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:29:57.351 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:29:57.351 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:29:57.352 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 13:29:57.372 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:29:57.372 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:29:57.916 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:29:57.918 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:29:58.044 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 130 ms
+04-Mar-2019 13:29:58.439 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:29:59.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:29:59.604 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 63 ms
+04-Mar-2019 13:29:59.621 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:29:59.622 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:30:06.591 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:30:14.157 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:30:14.280 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:30:14.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 130 ms
+04-Mar-2019 13:30:14.298 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:30:14.298 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:35:20.457 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:35:20.512 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:35:20.563 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 13:35:20.594 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:35:20.594 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 13:35:20.595 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:35:20.596 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 13:35:20.596 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 13:35:20.609 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:35:20.609 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:35:21.102 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 13:35:21.103 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 13:35:21.242 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 141 ms
+04-Mar-2019 13:35:21.609 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:35:22.726 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 13:35:22.790 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 59 ms
+04-Mar-2019 13:35:22.803 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 13:35:22.803 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 13:35:29.338 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:35:36.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 13:35:36.541 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 13:35:36.549 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 119 ms
+04-Mar-2019 13:35:36.558 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 13:35:36.559 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:30:24.605 INFO [RMI TCP Connection(15)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:30:24.657 INFO [RMI TCP Connection(15)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:30:24.708 INFO [RMI TCP Connection(15)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 14:30:24.735 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 14:30:24.735 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 14:30:24.735 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 14:30:24.736 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 14:30:24.737 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 14:30:24.755 INFO [RMI TCP Connection(15)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:30:24.755 INFO [RMI TCP Connection(15)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:30:25.341 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 14:30:25.343 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 14:30:25.521 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 181 ms
+04-Mar-2019 14:30:26.068 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:30:27.231 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:30:27.323 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 86 ms
+04-Mar-2019 14:30:27.336 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 14:30:27.336 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 14:30:34.513 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 14:30:42.993 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 14:30:43.118 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 14:30:43.129 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 135 ms
+04-Mar-2019 14:30:43.139 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:30:43.140 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:31:43.995 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:31:44.047 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:31:44.098 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 14:31:44.119 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 14:31:44.119 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 14:31:44.120 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 14:31:44.120 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 14:31:44.121 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 14:31:44.132 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:31:44.132 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:31:44.669 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 14:31:44.671 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 14:31:44.842 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 176 ms
+04-Mar-2019 14:31:45.274 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:31:46.536 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 14:31:46.631 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 90 ms
+04-Mar-2019 14:31:46.645 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 14:31:46.645 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 14:31:53.004 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 14:31:59.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 14:31:59.755 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 14:31:59.762 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 112 ms
+04-Mar-2019 14:31:59.771 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 14:31:59.772 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:04:16.619 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 18:04:16.621 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 18:04:17.382 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 764 ms
+04-Mar-2019 18:04:18.120 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:04:19.433 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:04:19.560 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 122 ms
+04-Mar-2019 18:04:19.580 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 18:04:19.580 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 18:04:40.855 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:04:49.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 18:04:49.806 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:04:49.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 184 ms
+04-Mar-2019 18:04:49.829 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:04:49.830 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:05:53.802 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:05:53.855 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:05:53.906 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 18:05:53.938 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 18:05:53.938 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 18:05:53.940 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 18:05:53.941 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 18:05:53.941 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 18:05:53.958 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:05:53.958 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:05:54.476 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 18:05:54.477 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 18:05:54.646 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 173 ms
+04-Mar-2019 18:05:55.122 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:05:56.540 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:05:56.651 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 105 ms
+04-Mar-2019 18:05:56.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 18:05:56.671 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 18:06:04.766 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:06:13.334 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 18:06:13.456 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:06:13.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 131 ms
+04-Mar-2019 18:06:13.474 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:06:13.475 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:14.131 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:14.185 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:14.236 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 18:12:14.270 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 18:12:14.270 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Mar-2019 18:12:14.271 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 18:12:14.272 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 18:12:14.273 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(Unknown Source)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+04-Mar-2019 18:12:14.294 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:14.294 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:14.977 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 18:12:14.980 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 18:12:15.152 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 178 ms
+04-Mar-2019 18:12:15.625 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:17.035 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:17.146 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 104 ms
+04-Mar-2019 18:12:17.165 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 18:12:17.165 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 18:12:25.107 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:12:33.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 18:12:33.993 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:12:34.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 147 ms
+04-Mar-2019 18:12:34.014 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:34.015 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:36.754 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:36.807 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:36.857 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+04-Mar-2019 18:12:36.878 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 18:12:36.879 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mashape.unirest.http.utils.SyncIdleConnectionMonitorThread.run(SyncIdleConnectionMonitorThread.java:22)
+04-Mar-2019 18:12:36.894 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:36.894 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:37.699 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+04-Mar-2019 18:12:37.700 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+04-Mar-2019 18:12:37.870 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 174 ms
+04-Mar-2019 18:12:38.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:39.655 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+04-Mar-2019 18:12:39.759 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 98 ms
+04-Mar-2019 18:12:39.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+04-Mar-2019 18:12:39.778 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+04-Mar-2019 18:12:47.758 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:12:56.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager
+04-Mar-2019 18:12:56.668 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Mar-2019 18:12:56.678 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\WAS\pivotal-tc-server-developer-3.1.2.RELEASE\rmsserver\webapps\manager has finished in 127 ms
+04-Mar-2019 18:12:56.691 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8443"]
+04-Mar-2019 18:12:56.692 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]

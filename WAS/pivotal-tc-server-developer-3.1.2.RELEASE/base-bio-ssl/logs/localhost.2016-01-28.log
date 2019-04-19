@@ -1,0 +1,74 @@
+1월 28, 2016 12:14:15 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 28, 2016 12:14:15 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 28, 2016 12:14:29 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 12:14:30 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 12:14:38 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 12:57:04 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 28, 2016 12:57:04 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 28, 2016 12:57:17 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 12:57:18 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 12:57:27 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 12:59:25 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 28, 2016 12:59:25 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 28, 2016 12:59:36 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 12:59:37 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 12:59:48 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 1:24:19 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 1:24:21 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 1:24:33 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 1:49:34 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 28, 2016 1:49:34 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 28, 2016 1:49:48 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 1:49:50 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 1:50:01 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 1:53:11 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 28, 2016 1:53:11 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 28, 2016 1:53:24 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 1:53:25 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 1:53:38 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 2:01:02 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 2:01:03 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 2:01:14 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 8:25:32 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 8:25:33 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 8:25:42 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 28, 2016 10:29:03 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 28, 2016 10:29:04 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 28, 2016 10:29:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'

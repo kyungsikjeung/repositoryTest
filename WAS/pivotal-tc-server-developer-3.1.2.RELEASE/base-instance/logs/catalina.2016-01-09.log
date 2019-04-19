@@ -1,0 +1,39 @@
+09-Jan-2016 18:55:42.132 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+09-Jan-2016 18:55:42.132 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+09-Jan-2016 18:55:42.413 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 285 ms
+09-Jan-2016 18:55:42.974 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+09-Jan-2016 18:55:43.271 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 263 ms
+09-Jan-2016 18:55:43.286 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+09-Jan-2016 18:55:43.286 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+09-Jan-2016 18:55:43.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\Catalina\localhost\workarts.xml
+09-Jan-2016 18:55:43.350 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:workarts' did not find a matching property.
+09-Jan-2016 18:55:56.416 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2016 18:55:57.321 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+09-Jan-2016 18:55:57.321 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/workarts] startup failed due to previous errors
+09-Jan-2016 18:55:57.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\Catalina\localhost\workarts.xml has finished in 14,033 ms
+09-Jan-2016 18:55:57.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\manager
+09-Jan-2016 18:55:57.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\manager has finished in 172 ms
+09-Jan-2016 18:55:57.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\ROOT
+09-Jan-2016 18:55:57.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\ROOT has finished in 94 ms
+09-Jan-2016 18:55:57.602 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]
+09-Jan-2016 18:58:12.111 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-bio-8080"]
+09-Jan-2016 18:58:12.174 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+09-Jan-2016 18:58:12.189 INFO [RMI TCP Connection(5)-127.0.0.1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-bio-8080"]
+09-Jan-2016 18:58:13.657 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tc Runtime property decoder using memory-based key
+09-Jan-2016 18:58:13.657 INFO [main] com.springsource.tcserver.security.TcDecoder.initCiphers Initializing ciphers
+09-Jan-2016 18:58:13.875 INFO [main] com.springsource.tcserver.security.PropertyDecoder.<init> tcServer Runtime property decoder has been initialized in 221 ms
+09-Jan-2016 18:58:14.390 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-bio-8080"]
+09-Jan-2016 18:58:14.561 INFO [main] com.springsource.tcserver.serviceability.rmi.JmxSocketListener.init Started up JMX registry on 127.0.0.1:6969 in 159 ms
+09-Jan-2016 18:58:14.577 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+09-Jan-2016 18:58:14.577 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/8.0.26.B.RELEASE
+09-Jan-2016 18:58:14.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\Catalina\localhost\workarts.xml
+09-Jan-2016 18:58:14.640 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:workarts' did not find a matching property.
+09-Jan-2016 18:58:22.099 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jan-2016 18:58:22.723 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+09-Jan-2016 18:58:22.723 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/workarts] startup failed due to previous errors
+09-Jan-2016 18:58:22.739 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\conf\Catalina\localhost\workarts.xml has finished in 8,145 ms
+09-Jan-2016 18:58:22.739 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\manager
+09-Jan-2016 18:58:22.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\manager has finished in 93 ms
+09-Jan-2016 18:58:22.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\ROOT
+09-Jan-2016 18:58:22.910 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-instance\webapps\ROOT has finished in 78 ms
+09-Jan-2016 18:58:22.910 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-bio-8080"]

@@ -1,0 +1,468 @@
+1월 23, 2016 11:04:52 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 11:04:52 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 11:05:01 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 11:14:34 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 11:14:35 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 11:14:46 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 11:16:12 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 11:16:13 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 11:16:22 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 11:28:27 오전 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 23, 2016 11:28:28 오전 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 23, 2016 11:28:40 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 11:28:41 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 11:28:50 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 11:58:11 오전 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 11:58:12 오전 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 12:09:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 12:09:16 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 12:09:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 12:25:09 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 12:25:10 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 12:25:17 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 12:25:59 오후 org.apache.catalina.core.StandardWrapperValve invoke
+심각: Servlet.service() for servlet [appServlet] in context with path [/workarts] threw exception [Request processing failed; nested exception is org.apache.tiles.request.render.CannotRenderException: Cannot render an attribute that is not a string, toString returns: null] with root cause
+org.apache.tiles.request.render.CannotRenderException: Cannot render an attribute that is not a string, toString returns: null
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:255)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:397)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:238)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:221)
+	at org.apache.tiles.renderer.DefinitionRenderer.render(DefinitionRenderer.java:59)
+	at org.springframework.web.servlet.view.tiles3.TilesView.renderMergedOutputModel(TilesView.java:132)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1243)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleCommonsRequestLoggingFilter.doFilterInternal(AbleCommonsRequestLoggingFilter.java:174)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleLogMDCInsertingFilter.doFilter(AbleLogMDCInsertingFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+1월 23, 2016 12:26:08 오후 org.apache.catalina.core.StandardWrapperValve invoke
+심각: Servlet.service() for servlet [appServlet] in context with path [/workarts] threw exception [Request processing failed; nested exception is org.apache.tiles.request.render.CannotRenderException: Cannot render an attribute that is not a string, toString returns: null] with root cause
+org.apache.tiles.request.render.CannotRenderException: Cannot render an attribute that is not a string, toString returns: null
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:255)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:397)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:238)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:221)
+	at org.apache.tiles.renderer.DefinitionRenderer.render(DefinitionRenderer.java:59)
+	at org.springframework.web.servlet.view.tiles3.TilesView.renderMergedOutputModel(TilesView.java:132)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1243)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleCommonsRequestLoggingFilter.doFilterInternal(AbleCommonsRequestLoggingFilter.java:174)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleLogMDCInsertingFilter.doFilter(AbleLogMDCInsertingFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+1월 23, 2016 12:36:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 12:36:23 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 12:36:32 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 2:36:06 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 2:36:07 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 2:36:14 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 2:39:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 2:39:28 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 2:39:37 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 3:32:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 23, 2016 3:32:16 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 23, 2016 3:32:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 3:32:30 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 3:32:37 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 3:34:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 23, 2016 3:34:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 23, 2016 3:34:24 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 3:34:25 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 3:34:32 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 3:45:19 오후 org.apache.catalina.core.StandardWrapperValve invoke
+심각: Servlet.service() for servlet [appServlet] in context with path [/workarts] threw exception [Request processing failed; nested exception is framework.exception.AbleRuntimeException: 휴대폰 본인인증 결과값이 올바르지 않습니다.] with root cause
+framework.exception.AbleRuntimeException: 휴대폰 본인인증 결과값이 올바르지 않습니다.
+	at kr.co.workarts.biz.signup.controller.SignupController.signupForm(SignupController.java:115)
+	at kr.co.workarts.biz.signup.controller.SignupController$$FastClassBySpringCGLIB$$9067d1dd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:720)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:655)
+	at kr.co.workarts.biz.signup.controller.SignupController$$EnhancerBySpringCGLIB$$db65e1a7.signupForm(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:222)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:814)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:737)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleCommonsRequestLoggingFilter.doFilterInternal(AbleCommonsRequestLoggingFilter.java:174)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleLogMDCInsertingFilter.doFilter(AbleLogMDCInsertingFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+1월 23, 2016 4:00:38 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 23, 2016 4:00:38 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 23, 2016 4:00:54 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 4:00:56 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 4:01:04 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 4:06:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 4:06:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 4:06:20 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 4:32:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 23, 2016 4:32:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 23, 2016 4:32:33 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 4:32:35 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 4:32:45 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 4:36:47 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 4:36:48 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 4:36:56 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 4:38:21 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+1월 23, 2016 4:38:21 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+1월 23, 2016 4:38:30 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 4:38:32 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 4:38:42 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 6:03:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 6:03:13 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 6:03:21 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 6:15:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 6:15:13 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 6:15:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 6:20:32 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 6:20:33 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 6:20:41 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 9:34:05 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 9:34:06 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 9:34:13 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 10:01:58 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 10:01:59 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 10:02:06 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 10:13:07 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 10:13:08 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 10:13:16 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+1월 23, 2016 10:25:04 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+1월 23, 2016 10:25:05 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+1월 23, 2016 10:25:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'

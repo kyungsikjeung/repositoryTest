@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl\wtpwebapps\workarts" path="/workarts" reloadable="true" source="org.eclipse.jst.jee.server:workarts"/>

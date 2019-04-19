@@ -1,0 +1,239 @@
+package com.korearms.contractchk.prefacilitycheckmng.controller;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.View;
+
+import com.korearms.appconfig.CodeMap.CHK_STATE2_YN;
+import com.korearms.appconfig.CodeMap.USE_YN;
+import com.korearms.common.service.CommonCodeMapService;
+import com.korearms.common.support.ControllerSupport;
+import com.korearms.common.vo.TableVO;
+import com.korearms.contractchk.prefacilitycheckmng.service.PreFacilityCheckMngService;
+import com.korearms.security.annotation.AppLoginUser;
+import com.korearms.security.vo.AppUserDetails;
+
+import framework.spring.web.view.AbleExcelCommand2;
+import framework.spring.web.view.AbleExcelView2;
+import framework.util.AbleUtil;
+
+/**
+ *  작업도구/기계.기구/시설물 점검 Controller
+ * @author Kyungsik Jeung
+ *
+ * */
+
+@Controller
+@RequestMapping(value = "/contractchk/prefacilitycheckmng")
+public class PreFacilityCheckMngController extends ControllerSupport {
+
+	@Autowired CommonCodeMapService commonCodeMapService;
+	@Autowired PreFacilityCheckMngService preFacilityCheckMngService;
+	@Autowired AbleExcelView2 ableExcelView;
+
+	@RequestMapping(value = "", method = RequestMethod.GET)
+	public String index(Model model, @AppLoginUser AppUserDetails me,
+			@RequestParam(required=true) Integer contractSeq) {
+
+		String denidePageMoveUrl = super.accessPageRole(contractSeq);
+		if (!StringUtils.isBlank(denidePageMoveUrl)){
+			return "redirect:/"+denidePageMoveUrl;
+		}
+
+		// 원척업체명 좌측메뉴 상단에 추가
+		super.addTiteContractName(model, contractSeq);
+
+		model.addAttribute("USE_YN", AbleUtil.toJson(USE_YN.getCodeMap()));
+		model.addAttribute("CONTRACT_SEQ" , contractSeq);
+		model.addAttribute("CHK_STATE_YN", AbleUtil.toJson(CHK_STATE2_YN.getCodeMap()));
+		//점검항목 리스트
+		model.addAttribute("QUESTION_NAME_LIST", AbleUtil.toJson(commonCodeMapService.getQuestionNameListMap(contractSeq, "CHECK_FACILITY")));
+
+		return "contractchk/prefacilitycheckmng/prefacilitycheckmng";
+	}
+
+
+
+	/**
+	 * 액셀 다운로드
+	 * @param 타이틀
+	 * @param
+	 * @param contractSeq
+	 * @param checklistCode
+	 * @param model
+	 * @return
+	 */
+
+	@RequestMapping(value = "/excel", method = RequestMethod.POST)
+	public View excelDownload(HttpServletRequest request,
+			HttpServletResponse response,
+			@RequestParam(value="contractSeq", required=true) int contractSeq,
+			@RequestParam(value="checklistCode", required=true) String checklistCode,
+			Model model) throws SQLException, IOException {
+
+		// row
+		 ArrayList<ArrayList<String>> rowsList = new ArrayList<ArrayList<String>>();
+
+		String groupHead = "가,나,다";
+		String groupHeadColNo = "0,3,4";
+		ArrayList<String> groupHeadList = new ArrayList<String>(Arrays.asList(groupHead.split(",")));
+		ArrayList<String> groupHeadColNoList = new ArrayList<String>(Arrays.asList(groupHeadColNo.split(",")));
+
+		 // header , row DB 값 조회
+		TableVO head = preFacilityCheckMngService.getHeader();
+		logger.info(":::head={}:::",AbleUtil.toJson(head));
+		List<TableVO> listRow = preFacilityCheckMngService.getLows();
+		logger.info(":::listRow={}:::",AbleUtil.toJson(listRow));
+		// header 데이터 포맷
+		ArrayList<String> headerList =new ArrayList<String>(Arrays.asList(head.getHeader().split(",")));
+		headerList.add(0,"업체명");
+		logger.info("test1");
+		// row 데이터 포맷
+		for(TableVO item : listRow) {
+			if ( item != null && item.getRow() != null ) {
+				ArrayList<String> checkList= new ArrayList<String>(Arrays.asList(item.getRow().replace("NULL"," ").replace("Y","적절").replace("N","부적절").replace("X","해당없음").split(",")));
+				rowsList.add(checkList);
+			}
+		}
+		logger.info("test2");
+//		ArrayList<String> groupHeadList = new ArrayList<String>(Arrays.asList(groupHead.split(",")));
+//		ArrayList<String> groupHeadColNoList = new ArrayList<String>(Arrays.asList(groupHeadColNo.split(",")));
+
+//		ArrayList<String> headerList = new ArrayList<String>(Arrays.asList(head.split(",")));
+//		ArrayList<ArrayList<String>> rowsList = new ArrayList<ArrayList<String>>();
+//		ArrayList<String> rowdata1 = new ArrayList<String>(Arrays.asList(row1.split(",")));
+//		ArrayList<String> rowdata2 = new ArrayList<String>(Arrays.asList(row2.split(",")));
+//		rowsList.add(rowdata1);
+//		rowsList.add(rowdata2);
+
+//		AbleExcelCommand2 command = new AbleExcelCommand2(groupHeadList, groupHeadColNoList, headerList, rowsList);
+
+
+
+
+		AbleExcelCommand2 command = new AbleExcelCommand2(groupHeadList , groupHeadColNoList, headerList, rowsList);
+		command.setFilename("공장관리");
+		command.setTitle("공장관리");
+		command.setSheetName("공장관리");
+//		HSSFWorkbook workbook = new HSSFWorkbook();
+//		command.buildExcelDocument(workbook, null, null);
+		model.addAttribute(AbleExcelCommand2.MODEL_KEY, command);
+		return ableExcelView;
+
+//		model.addAttribute("headerList", headerList);
+//		model.addAttribute("rowsList", rowsList);
+//
+//		/** 액셀 파일명 설정 */
+//		String title = "작업도구/기계.기구/시설물 점검";
+//		Workbook wb = new HSSFWorkbook();
+//		/** 액셀 Sheet 이름 설정 */
+//		Sheet sheet = wb.createSheet("test");
+//		sheet.setDefaultColumnWidth(1300);
+//		Row row = null;
+//		Cell cell = null;
+//		int rowNo = 0;
+//		int colNo = 0;
+//	    //CellStyle headStyle = wb.createCellStyle();
+//		int maxCol = headerList.size();
+//
+//		// 타이틀 폰트
+//		Font font = wb.createFont();
+//        font.setFontHeightInPoints((short) 20);
+//        font.setFontName("맑은 고딕");
+//
+//        // 헤더,데이터 폰트
+//		Font defaultFont = wb.createFont();
+//		defaultFont.setFontHeightInPoints((short) 13);
+//		defaultFont.setFontName("맑은 고딕");
+//
+//		// 1-1 타이틀 스타일
+//		CellStyle cellTitleStyle = wb.createCellStyle();
+//		cellTitleStyle.setAlignment(CellStyle.ALIGN_CENTER);
+//        cellTitleStyle.setFont(font);
+//
+//		//1-2 헤더 스타일
+//       CellStyle cellHeaderStyle = wb.createCellStyle();
+//       cellHeaderStyle.setFillForegroundColor(IndexedColors.GREY_50_PERCENT.getIndex());
+//       cellHeaderStyle.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+//       cellHeaderStyle.setAlignment(CellStyle.ALIGN_CENTER);
+//
+//		//1-3 데이터 스타일
+//       CellStyle cellDataStyle = wb.createCellStyle();
+//       cellDataStyle.setAlignment(CellStyle.ALIGN_CENTER);
+//
+//
+//
+//	       // Title 및 작업 자
+//	       if(maxCol > 0) {
+//
+//	           sheet.addMergedRegion(new CellRangeAddress(0, 0, 0, maxCol-1));
+//	  	     cell = sheet.createRow(0).createCell(0);
+//	           cell.setCellValue(title);
+//	  	     cell.setCellStyle(cellTitleStyle);
+//
+//
+//
+//
+//		    // cell.setCellStyle(cellStyle);
+//	         sheet.createRow(rowNo).createCell(colNo).setCellValue(title);
+//		     sheet.addMergedRegion(new CellRangeAddress(rowNo+1, rowNo+1, colNo, colNo + maxCol-1));
+//		    // cell.setCellStyle(cellStyle);
+//	         }
+//
+//
+//
+//
+//	       // 헤더
+//	       rowNo++;
+//	       rowNo++;
+//	       row = sheet.createRow(rowNo);
+//	       for(int i=0; i<maxCol; i++) {
+//	    	   cell = row.createCell(i);
+//	    	   cell.setCellValue(headerList.get(i));
+//	    	   cell.setCellStyle(cellHeaderStyle);
+//	       }
+//
+//
+//	       for(int i = 0; i < rowsList.size(); i++){
+//	          rowNo++;
+//	          row = sheet.createRow(rowNo);
+//	           for(int j = 0; j < rowsList.get(i).size(); j++){
+//	              cell = row.createCell(j);
+//	              cell.setCellValue(rowsList.get(i).get(j));
+//	           }
+//	       }
+//
+//	       CellRangeAddress cellRangeAdress = new CellRangeAddress(2, rowNo, 0, maxCol-1);
+//	       final short borderMediumDashed = CellStyle.BORDER_MEDIUM;
+//           RegionUtil.setBorderBottom(borderMediumDashed, cellRangeAdress, sheet, wb);
+//           RegionUtil.setBorderTop(borderMediumDashed, cellRangeAdress, sheet, wb);
+//           RegionUtil.setBorderLeft(borderMediumDashed, cellRangeAdress, sheet, wb);
+//           RegionUtil.setBorderRight(borderMediumDashed, cellRangeAdress, sheet, wb);
+//
+////
+//	       response.setContentType("ms-vnd/excel");
+//	       response.setHeader("Content-Disposition","attachment; filename="+URLEncoder.encode("작업도구/기계.기구/시설물 점검.xls","UTF-8"));
+//	       wb.write(response.getOutputStream());
+//	       wb.close();
+		//return "exceldownload/contractchk/prefacilitycheckmng/prefacilitycheckmng_excel";
+	}
+}
+
+
+
+
+

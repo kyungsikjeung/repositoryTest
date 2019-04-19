@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.co.workarts.security.dao.AppUserDAO">
+
+	<!-- 사용자ID로 사용자정보 조회 -->
+	<select id="findUserById" parameterType="java.util.Map" resultType="kr.co.workarts.security.vo.AppUserDT">
+		SELECT *
+		  FROM TB_User
+		 WHERE userId = #{userId}
+	</select>
+
+	<!-- 사용자ID로 권한코드목록 조회-->
+	<select id="findRoleCodesById" parameterType="java.util.Map" resultType="java.lang.String">
+		select distinct R.RoleCode
+		  from TB_User U,
+		       TB_UserRoleGroup URG,
+		       TB_RoleGroupRole RGR,
+		       TB_Role R
+		 where U.userSeq = URG.userSeq
+		   and URG.roleGroupCode = RGR.roleGroupCode
+		   and RGR.roleCode = R.roleCode
+		   and U.userId = #{userId}
+   </select>
+
+</mapper>

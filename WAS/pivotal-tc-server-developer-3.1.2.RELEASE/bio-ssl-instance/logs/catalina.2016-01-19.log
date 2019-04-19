@@ -1,0 +1,72 @@
+1월 19, 2016 8:03:49 오후 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+1월 19, 2016 8:03:49 오후 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+1월 19, 2016 8:03:50 오후 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 1339 ms
+1월 19, 2016 8:03:51 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8080"]
+1월 19, 2016 8:03:51 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+1월 19, 2016 8:03:52 오후 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 367 ms
+1월 19, 2016 8:03:52 오후 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+1월 19, 2016 8:03:53 오후 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+1월 19, 2016 8:04:06 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 19, 2016 8:04:23 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\manager
+1월 19, 2016 8:04:23 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 19, 2016 8:04:23 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\manager has finished in 121 ms
+1월 19, 2016 8:04:23 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\ROOT
+1월 19, 2016 8:04:23 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 19, 2016 8:04:23 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\ROOT has finished in 90 ms
+1월 19, 2016 8:04:23 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8080"]
+1월 19, 2016 8:04:23 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+1월 19, 2016 8:04:26 오후 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 19, 2016 8:42:36 오후 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+1월 19, 2016 8:42:36 오후 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+1월 19, 2016 8:42:36 오후 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 516 ms
+1월 19, 2016 8:42:37 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8080"]
+1월 19, 2016 8:42:37 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+1월 19, 2016 8:42:37 오후 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 101 ms
+1월 19, 2016 8:42:37 오후 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+1월 19, 2016 8:42:37 오후 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+1월 19, 2016 8:42:45 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 19, 2016 8:42:56 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\manager
+1월 19, 2016 8:42:56 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 19, 2016 8:42:56 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\manager has finished in 193 ms
+1월 19, 2016 8:42:56 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\ROOT
+1월 19, 2016 8:42:56 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+1월 19, 2016 8:42:56 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\bio-ssl-instance\webapps\ROOT has finished in 125 ms
+1월 19, 2016 8:42:56 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8080"]
+1월 19, 2016 8:42:56 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+1월 19, 2016 8:46:12 오후 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

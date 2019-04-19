@@ -1,0 +1,27 @@
+25-Mar-2019 08:52:06.058 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-Mar-2019 08:52:06.223 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+25-Mar-2019 08:52:06.429 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+ org.springframework.context.ApplicationContextException: Failed to load context initializer class [framework.spring.context.AbleApplicationContextInitializer]; nested exception is java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:524)
+	at org.springframework.web.context.ContextLoader.determineContextInitializerClasses(ContextLoader.java:509)
+	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:466)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:326)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4729)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5167)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:519)
+	... 14 more
+
+25-Mar-2019 08:52:06.440 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext

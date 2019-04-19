@@ -1,0 +1,954 @@
+6월 05, 2016 12:25:59 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 12:25:59 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 12:25:59 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 453 ms
+6월 05, 2016 12:26:00 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 12:26:00 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 12:26:01 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 331 ms
+6월 05, 2016 12:26:01 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 12:26:01 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 12:26:09 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 12:26:33 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 12:26:33 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 12:26:33 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 172 ms
+6월 05, 2016 12:26:33 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 12:26:33 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 12:26:33 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 110 ms
+6월 05, 2016 12:26:33 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 12:26:33 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:03:54 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:03:54 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:03:54 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 1:03:54 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 1:03:54 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 1:03:54 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#243 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 1:03:54 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 1:03:54 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 1:03:54 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:03:54 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:03:55 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 1:03:55 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 1:03:55 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 482 ms
+6월 05, 2016 1:03:56 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:03:57 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:03:58 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 129 ms
+6월 05, 2016 1:03:58 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 1:03:58 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 1:04:03 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:04:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 1:04:17 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:04:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 141 ms
+6월 05, 2016 1:04:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 1:04:17 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:04:17 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 140 ms
+6월 05, 2016 1:04:17 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:04:17 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:27:16 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:27:16 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:27:16 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 1:27:17 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 1:27:17 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 1:27:17 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#240 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 1:27:17 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 1:27:17 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:27:17 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:27:17 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 1:27:17 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 1:27:18 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 454 ms
+6월 05, 2016 1:27:18 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:27:18 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:27:19 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 348 ms
+6월 05, 2016 1:27:19 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 1:27:19 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 1:27:25 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:27:44 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 1:27:44 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:27:44 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 157 ms
+6월 05, 2016 1:27:44 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 1:27:44 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:27:44 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 319 ms
+6월 05, 2016 1:27:44 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:27:44 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:29:47 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:29:47 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:29:47 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 1:29:47 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 1:29:47 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 1:29:47 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#238 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 1:29:47 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 1:29:47 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:29:47 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:29:48 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 1:29:49 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 1:29:49 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 453 ms
+6월 05, 2016 1:29:51 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:29:51 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:29:51 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 138 ms
+6월 05, 2016 1:29:51 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 1:29:51 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 1:30:01 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:30:20 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 1:30:20 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:30:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 141 ms
+6월 05, 2016 1:30:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 1:30:21 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 1:30:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 94 ms
+6월 05, 2016 1:30:21 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 1:30:21 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 1:30:33 오전 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:15:14 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:15:14 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:15:14 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 2:15:15 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 2:15:15 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 2:15:15 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#243 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 2:15:15 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 2:15:15 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:15:15 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:15:15 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 2:15:15 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 2:15:16 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 484 ms
+6월 05, 2016 2:15:18 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:15:18 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:15:18 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 134 ms
+6월 05, 2016 2:15:18 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 2:15:18 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 2:15:27 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:15:36 오전 org.apache.catalina.core.StandardContext startInternal
+심각: One or more listeners failed to start. Full details will be found in the appropriate container log file
+6월 05, 2016 2:15:36 오전 org.apache.catalina.core.StandardContext startInternal
+심각: Context [/workarts] startup failed due to previous errors
+6월 05, 2016 2:15:36 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#128 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 2:15:36 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 2:15:36 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:15:36 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 171 ms
+6월 05, 2016 2:15:36 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 2:15:36 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:15:36 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 63 ms
+6월 05, 2016 2:15:36 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:15:36 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:17:06 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load kr.co.workarts.common.dao.UserDAO__I.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:06 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load org.springsource.loaded.__DynamicallyDispatchable.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:06 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load kr.co.workarts.common.service.UserService__I.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:06 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load org.springsource.loaded.__DynamicallyDispatchable.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:17 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load org.springsource.loaded.__DynamicallyDispatchable.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:23 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load kr.co.workarts.biz.festival.art.service.ArtServiceEx__I.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:23 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load org.springsource.loaded.__DynamicallyDispatchable.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:23 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load org.springsource.loaded.__DynamicallyDispatchable.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:32 오전 org.apache.catalina.loader.WebappClassLoader loadClass
+정보: Illegal access: this web application instance has been stopped already.  Could not load org.springsource.loaded.__DynamicallyDispatchable.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1750)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1116)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:390)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:845)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 05, 2016 2:17:34 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:17:34 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:17:34 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 2:17:34 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:17:34 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:17:35 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 2:17:35 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 2:17:35 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 500 ms
+6월 05, 2016 2:17:37 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:17:37 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:17:37 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 134 ms
+6월 05, 2016 2:17:37 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 2:17:37 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 2:17:44 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:18:04 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 2:18:04 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:18:04 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 125 ms
+6월 05, 2016 2:18:04 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 2:18:04 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:18:04 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 125 ms
+6월 05, 2016 2:18:04 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:18:04 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:40:50 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:40:50 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:40:50 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 2:40:50 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 2:40:50 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 2:40:50 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#240 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 2:40:50 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 2:40:50 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:40:50 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:40:52 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 2:40:52 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 2:40:52 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 506 ms
+6월 05, 2016 2:40:53 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:40:53 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:40:55 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 507 ms
+6월 05, 2016 2:40:55 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 2:40:55 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 2:41:04 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:41:25 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 2:41:25 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:41:25 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 109 ms
+6월 05, 2016 2:41:25 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 2:41:25 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:41:25 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 87 ms
+6월 05, 2016 2:41:25 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:41:25 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:52:16 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:52:16 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:52:16 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 2:52:16 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 2:52:16 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 2:52:16 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#240 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 2:52:16 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 2:52:16 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:52:16 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:52:17 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 2:52:17 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 2:52:18 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 468 ms
+6월 05, 2016 2:52:19 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:52:20 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 2:52:20 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 134 ms
+6월 05, 2016 2:52:20 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 2:52:20 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 2:52:28 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:52:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 2:52:48 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:52:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 140 ms
+6월 05, 2016 2:52:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 2:52:49 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 2:52:49 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 110 ms
+6월 05, 2016 2:52:49 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 2:52:49 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:28:35 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:28:35 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:28:35 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 3:28:35 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 3:28:35 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 3:28:35 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#239 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 3:28:35 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 3:28:35 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:28:35 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:28:36 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 3:28:36 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 3:28:37 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 485 ms
+6월 05, 2016 3:28:38 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:28:38 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:28:39 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 259 ms
+6월 05, 2016 3:28:39 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 3:28:39 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 3:28:46 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 3:29:07 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 3:29:07 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 3:29:07 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 122 ms
+6월 05, 2016 3:29:07 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 3:29:07 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 3:29:07 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 116 ms
+6월 05, 2016 3:29:07 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:29:07 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:41:34 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:41:34 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:41:34 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 3:41:34 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 3:41:34 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 3:41:34 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#243 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@2301ba21
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 3:41:34 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 3:41:34 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:41:34 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:41:36 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 3:41:36 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 3:41:36 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 507 ms
+6월 05, 2016 3:41:38 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:41:38 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 3:41:39 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 272 ms
+6월 05, 2016 3:41:39 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 3:41:39 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 3:41:47 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 3:42:06 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 3:42:06 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 3:42:06 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 297 ms
+6월 05, 2016 3:42:06 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 3:42:06 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 3:42:06 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 234 ms
+6월 05, 2016 3:42:06 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 3:42:06 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:04:13 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:04:13 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:04:13 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 4:04:13 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 4:04:13 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 4:04:13 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#240 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@4662de7b
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 4:04:13 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 4:04:13 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:04:13 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:04:15 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 4:04:15 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 4:04:15 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 435 ms
+6월 05, 2016 4:04:16 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:04:16 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:04:17 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 332 ms
+6월 05, 2016 4:04:17 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 4:04:17 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 4:04:24 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:04:47 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 4:04:47 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:04:47 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 296 ms
+6월 05, 2016 4:04:47 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 4:04:47 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:04:47 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 70 ms
+6월 05, 2016 4:04:47 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:04:47 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:05:10 오전 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:09:27 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:09:27 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:09:27 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 4:09:27 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [net.sf.log4jdbc.sql.jdbcapi.DriverSpy] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 4:09:27 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+심각: The web application [/workarts] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+6월 05, 2016 4:09:27 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#253 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@4662de7b
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 4:09:27 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 4:09:27 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:09:27 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:09:29 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 4:09:29 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 4:09:29 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 601 ms
+6월 05, 2016 4:09:31 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:09:31 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:09:32 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 152 ms
+6월 05, 2016 4:09:32 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 4:09:32 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 4:09:41 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:10:03 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 4:10:03 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:10:03 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 144 ms
+6월 05, 2016 4:10:03 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 4:10:04 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:10:04 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 152 ms
+6월 05, 2016 4:10:04 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:10:04 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:10:41 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:10:41 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:10:41 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+6월 05, 2016 4:10:41 오전 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+심각: The web application [/workarts] appears to have started a thread named [FileSystemWatcher: files=#229 cl=WebappClassLoader
+  context: /workarts
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5b187658
+] but has failed to stop it. This is very likely to create a memory leak.
+6월 05, 2016 4:10:41 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:10:41 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:10:41 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 4:10:41 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 4:10:42 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 514 ms
+6월 05, 2016 4:10:43 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:10:43 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:10:44 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 591 ms
+6월 05, 2016 4:10:44 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 4:10:44 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 4:10:53 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:11:15 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 4:11:15 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:11:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 157 ms
+6월 05, 2016 4:11:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 4:11:16 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:11:16 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 153 ms
+6월 05, 2016 4:11:16 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:11:16 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:18:14 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tc Runtime property decoder using memory-based key
+6월 05, 2016 4:18:14 오전 com.springsource.tcserver.security.TcDecoder initCiphers
+정보: Initializing ciphers
+6월 05, 2016 4:18:14 오전 com.springsource.tcserver.security.PropertyDecoder <init>
+정보: tcServer Runtime property decoder has been initialized in 467 ms
+6월 05, 2016 4:18:15 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:18:15 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-bio-8443"]
+6월 05, 2016 4:18:16 오전 com.springsource.tcserver.serviceability.rmi.JmxSocketListener init
+정보: Started up JMX registry on 127.0.0.1:6969 in 424 ms
+6월 05, 2016 4:18:16 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 05, 2016 4:18:16 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Pivotal tc Runtime 3.1.2.RELEASE/7.0.64.B.RELEASE
+6월 05, 2016 4:18:22 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:18:42 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager
+6월 05, 2016 4:18:42 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:18:42 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\manager has finished in 216 ms
+6월 05, 2016 4:18:42 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT
+6월 05, 2016 4:18:42 오전 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+6월 05, 2016 4:18:42 오전 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory C:\Java\pivotal-tc-server-developer-3.1.2.RELEASE\base-bio-ssl\webapps\ROOT has finished in 102 ms
+6월 05, 2016 4:18:42 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-80"]
+6월 05, 2016 4:18:42 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-bio-8443"]

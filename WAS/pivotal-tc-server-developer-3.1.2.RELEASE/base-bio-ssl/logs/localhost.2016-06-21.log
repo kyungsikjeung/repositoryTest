@@ -1,0 +1,795 @@
+6월 21, 2016 2:01:37 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:01:38 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 2:01:46 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+6월 21, 2016 2:06:33 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+6월 21, 2016 2:06:33 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 2:09:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:09:34 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:09:35 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 2:09:43 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+6월 21, 2016 2:15:36 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+6월 21, 2016 2:15:36 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 2:15:44 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:28:42 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:33:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:33:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 2:33:12 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.context.ApplicationContextException: Failed to load context initializer class [framework.spring.context.AbleApplicationContextInitializer]; nested exception is java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:526)
+	at org.springframework.web.context.ContextLoader.determineContextInitializerClasses(ContextLoader.java:511)
+	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:468)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:445)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1858)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1709)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:521)
+	... 14 more
+
+6월 21, 2016 2:33:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 2:57:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:57:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 2:57:16 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.context.ApplicationContextException: Failed to load context initializer class [framework.spring.context.AbleApplicationContextInitializer]; nested exception is java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:526)
+	at org.springframework.web.context.ContextLoader.determineContextInitializerClasses(ContextLoader.java:511)
+	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:468)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:445)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1858)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1709)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:521)
+	... 14 more
+
+6월 21, 2016 2:57:16 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 2:58:18 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 2:58:19 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 2:58:19 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.context.ApplicationContextException: Failed to load context initializer class [framework.spring.context.AbleApplicationContextInitializer]; nested exception is java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:526)
+	at org.springframework.web.context.ContextLoader.determineContextInitializerClasses(ContextLoader.java:511)
+	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:468)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:445)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1858)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1709)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:521)
+	... 14 more
+
+6월 21, 2016 2:58:19 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 3:01:53 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 3:01:53 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 3:01:53 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.context.ApplicationContextException: Failed to load context initializer class [framework.spring.context.AbleApplicationContextInitializer]; nested exception is java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:526)
+	at org.springframework.web.context.ContextLoader.determineContextInitializerClasses(ContextLoader.java:511)
+	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:468)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:445)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1858)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1709)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:521)
+	... 14 more
+
+6월 21, 2016 3:01:53 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 3:03:47 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 3:03:47 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 3:03:47 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.context.ApplicationContextException: Failed to load context initializer class [framework.spring.context.AbleApplicationContextInitializer]; nested exception is java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:526)
+	at org.springframework.web.context.ContextLoader.determineContextInitializerClasses(ContextLoader.java:511)
+	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:468)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:445)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1858)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1709)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:521)
+	... 14 more
+
+6월 21, 2016 3:03:47 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 3:04:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 3:04:27 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 3:04:28 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.context.ApplicationContextException: Failed to load context initializer class [framework.spring.context.AbleApplicationContextInitializer]; nested exception is java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:526)
+	at org.springframework.web.context.ContextLoader.determineContextInitializerClasses(ContextLoader.java:511)
+	at org.springframework.web.context.ContextLoader.customizeContext(ContextLoader.java:468)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:445)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: framework.spring.context.AbleApplicationContextInitializer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1858)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1709)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.web.context.ContextLoader.loadInitializerClass(ContextLoader.java:521)
+	... 14 more
+
+6월 21, 2016 3:04:28 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 3:08:10 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 3:08:10 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 3:08:11 오후 org.apache.catalina.core.StandardContext filterStart
+심각: Exception starting filter springSecurityFilterChain
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'springSecurityFilterChain' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1060)
+	at org.springframework.web.filter.DelegatingFilterProxy.initDelegate(DelegatingFilterProxy.java:326)
+	at org.springframework.web.filter.DelegatingFilterProxy.initFilterBean(DelegatingFilterProxy.java:235)
+	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:199)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4841)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5535)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 21, 2016 3:08:11 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 3:12:44 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 3:12:44 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 3:12:45 오후 org.apache.catalina.core.StandardContext filterStart
+심각: Exception starting filter springSecurityFilterChain
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'springSecurityFilterChain' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1060)
+	at org.springframework.web.filter.DelegatingFilterProxy.initDelegate(DelegatingFilterProxy.java:326)
+	at org.springframework.web.filter.DelegatingFilterProxy.initFilterBean(DelegatingFilterProxy.java:235)
+	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:199)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4841)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5535)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 21, 2016 3:12:45 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 3:14:46 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 3:14:47 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 3:14:47 오후 org.apache.catalina.core.StandardContext filterStart
+심각: Exception starting filter springSecurityFilterChain
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'springSecurityFilterChain' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1060)
+	at org.springframework.web.filter.DelegatingFilterProxy.initDelegate(DelegatingFilterProxy.java:326)
+	at org.springframework.web.filter.DelegatingFilterProxy.initFilterBean(DelegatingFilterProxy.java:235)
+	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:199)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4841)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5535)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 21, 2016 3:14:47 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 3:19:51 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 3:19:51 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 3:19:52 오후 org.apache.catalina.core.StandardContext filterStart
+심각: Exception starting filter springSecurityFilterChain
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'springSecurityFilterChain' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1060)
+	at org.springframework.web.filter.DelegatingFilterProxy.initDelegate(DelegatingFilterProxy.java:326)
+	at org.springframework.web.filter.DelegatingFilterProxy.initFilterBean(DelegatingFilterProxy.java:235)
+	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:199)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4841)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5535)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 21, 2016 3:19:52 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 4:03:58 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 4:03:58 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 4:03:59 오후 org.apache.catalina.core.StandardContext filterStart
+심각: Exception starting filter springSecurityFilterChain
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'springSecurityFilterChain' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:698)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1060)
+	at org.springframework.web.filter.DelegatingFilterProxy.initDelegate(DelegatingFilterProxy.java:326)
+	at org.springframework.web.filter.DelegatingFilterProxy.initFilterBean(DelegatingFilterProxy.java:235)
+	at org.springframework.web.filter.GenericFilterBean.init(GenericFilterBean.java:199)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:279)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:260)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4841)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5535)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 21, 2016 4:03:59 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 4:11:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 4:11:15 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 4:11:16 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [spring.RootConfig]; nested exception is java.io.FileNotFoundException: class path resource [config/config.local.properties] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:321)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:243)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:98)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:678)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:520)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: class path resource [config/config.local.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172)
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:153)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72)
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58)
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:84)
+	at org.springframework.context.annotation.ConfigurationClassParser.processPropertySource(ConfigurationClassParser.java:360)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:254)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:231)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167)
+	... 18 more
+
+6월 21, 2016 4:11:16 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 4:14:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 4:14:22 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 4:14:24 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSecurityConfig': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.security.core.userdetails.UserDetailsService spring.GlobalSecurityConfig.userDetailsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.security.core.userdetails.UserDetailsService spring.GlobalSecurityConfig.userDetailsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 35 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 37 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 48 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:464)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1123)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1018)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 50 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1123)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1018)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:813)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 63 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.mybatis.spring.SqlSessionFactoryBean]: Factory method 'sqlFactoryLocal' threw exception; nested exception is java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 76 more
+Caused by: java.io.FileNotFoundException: class path resource [mapper/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:187)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:413)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:287)
+	at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1269)
+	at spring.RootConfig.setupSqlFactory(RootConfig.java:184)
+	at spring.RootConfig.sqlFactoryLocal(RootConfig.java:171)
+	at spring.RootConfig$$EnhancerBySpringCGLIB$$6dee9c27.CGLIB$sqlFactoryLocal$12(<generated>)
+	at spring.RootConfig$$EnhancerBySpringCGLIB$$6dee9c27$$FastClassBySpringCGLIB$$f229ef91.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:355)
+	at spring.RootConfig$$EnhancerBySpringCGLIB$$6dee9c27.sqlFactoryLocal(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 77 more
+
+6월 21, 2016 4:14:24 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 4:16:14 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 4:16:14 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 4:16:17 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSecurityConfig': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.security.core.userdetails.UserDetailsService spring.GlobalSecurityConfig.userDetailsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.security.core.userdetails.UserDetailsService spring.GlobalSecurityConfig.userDetailsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.koreaprepaidcard.security.dao.AppUserDAO com.koreaprepaidcard.security.service.AppUserDetailsService.adminDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 35 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 37 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession com.koreaprepaidcard.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 48 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:464)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1123)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1018)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 50 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:813)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 63 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\KPCHomepage\WebContent\WEB-INF\classes\mapper\framework\AppUserDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:468)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:343)
+	at framework.mybatis.spring.RefreshableSqlSessionFactoryBean.afterPropertiesSet(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 74 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:466)
+	... 78 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 80 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.popcardadminv2.security.vo.AdminDT'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 84 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.popcardadminv2.security.vo.AdminDT
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 86 more
+
+6월 21, 2016 4:16:17 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 4:17:08 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 4:17:08 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 4:17:14 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+6월 21, 2016 4:21:28 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+6월 21, 2016 4:21:28 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+6월 21, 2016 4:21:35 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+6월 21, 2016 4:21:36 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+6월 21, 2016 4:21:40 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+6월 21, 2016 4:21:46 오후 org.apache.catalina.core.StandardWrapperValve invoke
+심각: Servlet.service() for servlet [appServlet] in context with path [/KPCHomepage] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+	at org.apache.tiles.BasicAttributeContext.inherit(BasicAttributeContext.java:212)
+	at org.apache.tiles.definition.dao.ResolvingLocaleUrlDefinitionDAO.getDefinitionFromResolver(ResolvingLocaleUrlDefinitionDAO.java:84)
+	at org.apache.tiles.definition.dao.CachingLocaleUrlDefinitionDAO.getDefinition(CachingLocaleUrlDefinitionDAO.java:110)
+	at org.apache.tiles.definition.dao.CachingLocaleUrlDefinitionDAO.getDefinition(CachingLocaleUrlDefinitionDAO.java:49)
+	at org.apache.tiles.definition.UnresolvingLocaleDefinitionsFactory.getDefinition(UnresolvingLocaleDefinitionsFactory.java:89)
+	at org.apache.tiles.impl.BasicTilesContainer.getDefinition(BasicTilesContainer.java:286)
+	at org.apache.tiles.impl.BasicTilesContainer.isValidDefinition(BasicTilesContainer.java:273)
+	at org.apache.tiles.renderer.DefinitionRenderer.isRenderable(DefinitionRenderer.java:64)
+	at org.springframework.web.servlet.view.tiles3.TilesView.checkResource(TilesView.java:116)
+	at org.springframework.web.servlet.view.UrlBasedViewResolver.loadView(UrlBasedViewResolver.java:483)
+	at org.springframework.web.servlet.view.AbstractCachingViewResolver.createView(AbstractCachingViewResolver.java:244)
+	at org.springframework.web.servlet.view.UrlBasedViewResolver.createView(UrlBasedViewResolver.java:446)
+	at org.springframework.web.servlet.view.AbstractCachingViewResolver.resolveViewName(AbstractCachingViewResolver.java:156)
+	at org.springframework.web.servlet.view.ContentNegotiatingViewResolver.getCandidateViews(ContentNegotiatingViewResolver.java:299)
+	at org.springframework.web.servlet.view.ContentNegotiatingViewResolver.resolveViewName(ContentNegotiatingViewResolver.java:220)
+	at org.springframework.web.servlet.view.ViewResolverComposite.resolveViewName(ViewResolverComposite.java:106)
+	at org.springframework.web.servlet.DispatcherServlet.resolveViewName(DispatcherServlet.java:1282)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1223)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1027)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:971)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:969)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:860)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:845)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.ShallowEtagHeaderFilter.doFilterInternal(ShallowEtagHeaderFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleCommonsRequestLoggingFilter.doFilterInternal(Unknown Source)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at framework.servlet.filter.AbleLogMDCInsertingFilter.doFilter(Unknown Source)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:122)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:48)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:53)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+6월 21, 2016 5:12:39 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+6월 21, 2016 5:12:39 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext

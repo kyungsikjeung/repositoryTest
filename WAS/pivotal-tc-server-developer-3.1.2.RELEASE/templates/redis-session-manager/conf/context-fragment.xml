@@ -1,0 +1,8 @@
+<Context>
+	<add:Valve className="com.gopivotal.manager.SessionFlushValve" />
+	<add:Manager className="org.apache.catalina.session.PersistentManager">
+	    <Store className="com.gopivotal.manager.redis.RedisStore" 
+			host="${host:localhost}" port="${port:6379}" database="${databaseIndex:0}" 
+			connectionPoolSize="${connectionPoolSize:-1}" timeout="${poolTimeout:2000}"/>
+	</add:Manager>
+</Context>

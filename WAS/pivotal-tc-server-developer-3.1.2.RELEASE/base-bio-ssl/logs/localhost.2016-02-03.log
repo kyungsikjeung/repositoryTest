@@ -1,0 +1,173 @@
+2월 03, 2016 3:26:10 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+2월 03, 2016 3:26:13 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+2월 03, 2016 3:26:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+2월 03, 2016 4:20:40 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+2월 03, 2016 4:20:41 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+2월 03, 2016 4:20:51 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+2월 03, 2016 7:49:07 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+2월 03, 2016 7:49:08 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+2월 03, 2016 7:49:12 오후 org.apache.catalina.core.StandardContext listenerStart
+심각: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalSecurityConfig': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.security.core.userdetails.UserDetailsService spring.GlobalSecurityConfig.userDetailsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: kr.co.workarts.security.dao.AppUserDAO kr.co.workarts.security.service.AppUserDetailsService.appUserDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession kr.co.workarts.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:839)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:538)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5003)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5517)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1574)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: org.springframework.security.core.userdetails.UserDetailsService spring.GlobalSecurityConfig.userDetailsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: kr.co.workarts.security.dao.AppUserDAO kr.co.workarts.security.service.AppUserDetailsService.appUserDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession kr.co.workarts.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDetailsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: kr.co.workarts.security.dao.AppUserDAO kr.co.workarts.security.service.AppUserDetailsService.appUserDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession kr.co.workarts.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: kr.co.workarts.security.dao.AppUserDAO kr.co.workarts.security.service.AppUserDetailsService.appUserDAO; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession kr.co.workarts.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 35 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appUserDAO': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession kr.co.workarts.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 37 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: protected org.apache.ibatis.session.SqlSession kr.co.workarts.common.support.DAOSupport.sqlSession; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:573)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 48 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSession' defined in spring.RootConfig: Unsatisfied dependency expressed through constructor argument with index 0 of type [org.apache.ibatis.session.SqlSessionFactory]: : Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:464)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1123)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1018)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:545)
+	... 50 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlFactoryLocal' defined in spring.RootConfig: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:813)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 63 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\workspace\workarts\WebContent\WEB-INF\classes\mapper\admin\applymng\act\ApplyActMngDAO.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:468)
+	at framework.mybatis.RefreshableSqlSessionFactoryBean.buildSqlSessionFactory(RefreshableSqlSessionFactoryBean.java)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:343)
+	at framework.mybatis.RefreshableSqlSessionFactoryBean.afterPropertiesSet(RefreshableSqlSessionFactoryBean.java:80)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	... 74 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:466)
+	... 79 more
+Caused by: java.lang.IllegalStateException: Mapping is missing column attribute for property userInfo
+	at org.apache.ibatis.mapping.ResultMapping$Builder.validate(ResultMapping.java:155)
+	at org.apache.ibatis.mapping.ResultMapping$Builder.build(ResultMapping.java:140)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.buildResultMapping(MapperBuilderAssistant.java:415)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildResultMappingFromContext(XMLMapperBuilder.java:378)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:280)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 81 more
+
+2월 03, 2016 7:49:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+2월 03, 2016 8:04:41 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+2월 03, 2016 8:04:42 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+2월 03, 2016 8:04:55 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+2월 03, 2016 9:31:29 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+2월 03, 2016 9:31:30 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+2월 03, 2016 9:31:36 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+2월 03, 2016 9:34:28 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+2월 03, 2016 9:34:28 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+2월 03, 2016 9:34:37 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+2월 03, 2016 9:34:38 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+2월 03, 2016 9:34:46 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'
+2월 03, 2016 9:40:57 오후 org.apache.catalina.core.ApplicationContext log
+정보: Destroying Spring FrameworkServlet 'appServlet'
+2월 03, 2016 9:40:57 오후 org.apache.catalina.core.ApplicationContext log
+정보: Closing Spring root WebApplicationContext
+2월 03, 2016 9:41:04 오후 org.apache.catalina.core.ApplicationContext log
+정보: No Spring WebApplicationInitializer types detected on classpath
+2월 03, 2016 9:41:05 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring root WebApplicationContext
+2월 03, 2016 9:41:12 오후 org.apache.catalina.core.ApplicationContext log
+정보: Initializing Spring FrameworkServlet 'appServlet'

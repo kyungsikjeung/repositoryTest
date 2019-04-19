@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- 페이지용 레이아웃 설정 -->
+	
+	<!-- TODO: 로그인페이지 레이아웃 -->
+	
+	<!-- 일반페이지 레이아웃 -->
+	<definition name="page.admin.layout" extends="base.admin.layout">
+		<put-attribute name="pageheader" value="" />
+		<put-attribute name="prebody" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="postbody" value="" />
+	</definition>
+
+</tiles-definitions>
