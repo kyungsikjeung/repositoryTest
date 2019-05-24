@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Server>
-	<Service name="Catalina">
-        <add:Connector port="${http.port:8080}" protocol="HTTP/1.1"
-           connectionTimeout="20000"  URIEncoding="UTF-8" />
-	</Service>
-</Server>

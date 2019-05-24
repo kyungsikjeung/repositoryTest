@@ -1,6 +1,0 @@
-2월 02, 2016 8:32:12 오후 org.apache.catalina.core.ApplicationContext log
-정보: No Spring WebApplicationInitializer types detected on classpath
-2월 02, 2016 8:32:13 오후 org.apache.catalina.core.ApplicationContext log
-정보: Initializing Spring root WebApplicationContext
-2월 02, 2016 8:32:20 오후 org.apache.catalina.core.ApplicationContext log
-정보: Initializing Spring FrameworkServlet 'appServlet'
