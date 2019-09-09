@@ -1,285 +1,89 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!-- fontAwesome -->
-    <script src="https://kit.fontawesome.com/ee62e1e733.js"></script>
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
-    <!-- main css -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="./lib/limitless/css/fonts.css" rel="stylesheet" type="text/css" />
 
-    <title>Start</title>
+  <link href="./lib/limitless/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css" />
+  <link href="./lib/limitless/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css" />
+  <link href="./lib/limitless/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="./lib/limitless/css/core.css" rel="stylesheet" type="text/css" />
+  <link href="./lib/limitless/css/components.css" rel="stylesheet" type="text/css" />
+  <link href="./lib/limitless/css/colors.css" rel="stylesheet" type="text/css" />
+  <!-- /Limitless stylesheets -->
+
+  <!-- KendoUI stylesheets -->
+  <link href="./lib/kendoui/styles/kendo.common.min.css" rel="stylesheet" type="text/css" />
+  <link href="./lib/kendoui/styles/kendo.bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!-- //KendoUI stylesheets -->
+
+  <link href="./lib/select2-3.5.4/select2.css" rel="stylesheet" type="text/css" />
+  <link href="./css/common.css" rel="stylesheet" type="text/css" />
+
+  <!-- Common JS 3rd Party Library -->
+  <script type="text/javascript" src="./lib/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="./lib/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery.ba-bbq.min.js"></script>
+  <script type="text/javascript" src="./lib/globalize-1.0.0/globalize.js"></script>
+  <script type="text/javascript" src="./lib/jquery-validation-1.14.0/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery-validation-1.14.0/additional-methods.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery-validation-1.14.0/localization/messages_ko.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery.blockUI.js"></script>
+  <script type="text/javascript" src="./lib/jquery.fileDownload.js"></script>
+  <script type="text/javascript" src="./lib/jquery.iframe-transport.js"></script>
+  <script type="text/javascript" src="./lib/jquery.modal.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery.numeric.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery.scrollTo.js"></script>
+  <script type="text/javascript" src="./lib/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="./lib/js.cookie-1.5.1.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery.querystring.js"></script>
+  <script type="text/javascript" src="./lib/select2-3.5.4/select2.min.js"></script>
+  <script type="text/javascript" src="./lib/select2-3.5.4/select2_locale_ko.js"></script>
+  <script type="text/javascript" src="./lib/underscore-min.js"></script>
+  <script type="text/javascript" src="./lib/underscore.string.min.js"></script>
+  <script type="text/javascript" src="./lib/moment.min.js"></script>
+  <script type="text/javascript" src="./lib/knockout-3.3.0.js"></script>
+  <script type="text/javascript" src="./lib/knockout-postbox.min.js"></script>
+
+  <!-- KendoUI -->
+  <script type="text/javascript" src="./lib/kendoui/js/kendo.all.min.js"></script>
+  <script type="text/javascript" src="./lib/kendoui/js/cultures/kendo.culture.ko-KR.min.js"></script>
+  <!-- //KendoUI -->
+
+  <!-- Common JS Module -->
+  <script type="text/javascript" src="./app/able.extend.underscore.js"></script>
+  <script type="text/javascript" src="./app/able.extend.knockout.js"></script>
+  <script type="text/javascript" src="./app/able.extend.jquery.validate.js"></script>
+  <script type="text/javascript" src="./app/able.vmutil.js"></script>
+  <script type="text/javascript" src="./app/able.vmextender.js"></script>
+  <script type="text/javascript" src="./app/able.ezutil.js"></script>
+  <script type="text/javascript" src="./app/appconfig.js"></script>
+
+  <script type="text/javascript" src="./app/able.kendogrid.vm.js"></script>
+
+  <!-- Limitless -->
+  <script type="text/javascript" src="./lib/limitless/js/core/libraries/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./lib/limitless/js/core/libraries/jquery_ui/widgets.min.js"></script>
+  <script type="text/javascript" src="./lib/limitless/js/core/libraries/jquery_ui/effects.min.js"></script>
+  <script type="text/javascript" src="./lib/limitless/js/core/app.js"></script>
+  <link rel="shortcut icon" href="./image//pica.ico">
+  <title>테스트 페이지</title>
+  <script>
+    $(function () {
+      $("#includedContent").load("rolemng.html");
+    });
+  </script>
 </head>
 
 <body>
+  <div id="includedContent"></div>
 
-
-
-
-
-
-    <header>
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Books</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"> </div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Course</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Price</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <a class="nav-link" href="#">Pages</a>
-                                <div class="dropdown-content">
-                                    <a class="nav-link" href="#">Generic</a>
-                                    <a class="nav-link" href="#">Element</a>
-                                </div>
-                            </div>
-
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Fact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                    </ul>
-
-
-                </div>
-            </nav>
-        </div>
-
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-7 col-sm-12 my-5">
-                    <h6>AUTHOR:DAILY TUITION</h6>
-                    <h1>EXITING ADVENTRUE</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos explicabo provident amet!
-                        Nobis quibusdam doloribus, distinctio dolorem nam id adipisci.</p>
-                    <button class="btn btn-light px-5 py-3">By now for $5.99</button>
-                </div>
-                <div class="col-md-5    col-sm-12 height d-flex justify-content-center align-items-end">
-                    <img class="" src="../image/book.jpg" alt="Books">
-
-                </div>
-            </div>
-        </div>
-
-    </header>
-
-    <main>
-        <section class="section-1">
-            <div class="container bg-primary text-center">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="pray">
-                            <img src="../image/adventure.jpg" alt="Pray">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel tex-left">
-                            <h1>MR.Devid Smith</h1>
-                            <p class="pt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
-                                velit
-                                quidem
-                                repellat odit numquam suscipit ipsa aliquid repellendus nobis! Rerum.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem autem fuga quis recusandae
-                                totam. Sint natus necessitatibus sed ab officia.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6"></div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-2 container-fluid py-0">
-            <div class="cover">
-                <div class="content text-center">
-                    <h1>Some Features That Made Us Unique</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur reprehenderit culpa
-                        exercitationem atque vero ratione odio illum iste dolorem tempore.</p>
-                </div>
-            </div>
-            <div class="container-fluid text-center">
-                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
-                    <div class="rect">
-                        <h1>12345</h1>
-                        <p>happy client</p>
-                    </div>
-                    <div class="rect">
-                        <h1>56789</h1>
-                        <p>cups coffee</p>
-                    </div>
-                    <div class="rect">
-                        <h1>1056</h1>
-                        <p>tickets Submitted</p>
-                    </div>
-                    <div class="rect">
-                        <h1>9152</h1>
-                        <p>Total project</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="purchase text-center">
-                <h1>purchase Whatever you want</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur eos quae dolor optio expedita
-                    repellendus dicta cum hic? Deserunt, molestias!</p>
-                <div class="cards">
-                    <div class="d-flex flex-row justify-content-center flex-wrap">
-                        <!-- 1 -->
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">PDF TEST</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in</p>
-                                <div class="pricing">
-                                    <h1>$77.99</h1>
-                                    <a href="" class="btn btn-dark px-5 py-2 mb-5">Purchase Button</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 2 -->
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Print Copy</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in</p>
-                                <div class="pricing">
-                                    <h1>$599.99</h1>
-                                    <a href="" class="btn btn-dark px-5 py-2 mb-5">Purchase Button</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 3 -->
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">PDF TEST</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in</p>
-                                <div class="pricing">
-                                    <h1>$328.99</h1>
-                                    <a href="" class="btn btn-dark px-5 py-2 mb-5">Purchase Button</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- sec3 -->
-        <section class="section-3 container-fluid p-0 text-center">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h1>downlaod app here</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis beatae ducimus, aperiam sequi
-                        facilis accusamus magnam non soluta delectus nemo?</p>
-                </div>
-            </div>
-
-            <div class="platform row">
-                <div class="col-md-6 col-sm-6 text-right">
-                    <div class="desktop shadow-lg">
-                        <div class="d-flex flex-row justify-content-center">
-                            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
-                            <div class="text text-left">
-                                <h3 class="pt-1 m-0">Desktop</h3>
-                                <p class="m-0 p-0">on website</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 text-left">
-                    <div class="desktop shadow-lg">
-                        <div class="d-flex flex-row justify-content-center">
-                            <i class="fas fa-mobile fa-3x py-2 pr-3"></i>
-                            <div class="text text-left">
-                                <h3 class="pt-1 m-0">,mobile</h3>
-                                <p class="m-0 p-0">on Play Store</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- team -->
-        <section class="section-4">
-            <div class="container text-center">
-                <h1 class="text-dark">What oujr reader's Say About us</h1>
-                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, vitae?
-                </p>
-            </div>
-            <div class="team row">
-                <div class="col-md-4 col-sm-12 text-center">
-                    <div class="card mr-2 d-inline-block shadow-lg">
-
-                        <div class="card-img-top"><img src="../image/member1.jpeg" alt="Member1" class="img-fluid">
-                        </div>
-                        <div class="card-body">Blalock Jolene</div>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos fuga perspiciatis
-                            maxime
-                            molestias libero quas nesciunt aspernatur illum culpa a!
-                        </p>
-                        <a class="text-secondary text-decoration-none" href="#">Go Some Where</a>
-                        <p class="text-black-50">CEO at Google</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-12 text-center">
-                    <!-- carousel started-->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <div class="img"><img class="d-block img-fluid" src="..." alt="First slide"></div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img"><img class="d-block img-fluid" src="..." alt="Second slide"></div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="img"><img class="d-block img-fluid" src="..." alt="Third slide"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end crsexaple -->
-                </div>
-                <div class="col-md-4 col-sm-12 text-center"> </div>
-
-            </div>
-        </section>
-    </main>
-
-    <footer>
-
-    </footer>
-
-
-
-    <!-- jquery -->
-    <script src src="./js/jquery-3.4.1.min.js"></script>
-    <!-- bootstrap -->
-    <script src src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
+
+<script type="text/javascript">
+  var contextPath = "localhost:5500";
+</script>

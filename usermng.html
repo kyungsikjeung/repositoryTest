@@ -1,0 +1,190 @@
+<body>
+  <div class="panel panel-flat" data-bind="with: searchData, enterKey: $root.search">
+    <div class="panel-heading">
+      <span class="text-semibold">검색조건</span>
+      <div class="heading-elements">
+        <ul class="icons-list">
+          <li><a data-action="collapse"></a></li>
+        </ul>
+      </div>
+      <a class="heading-elements-toggle"><i class="icon-menu"></i></a>
+    </div>
+    <div class="panel-body paddingbottom0">
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+
+
+          <div class="col-md-4">
+            <label class="control-label text-right">부서명</label>
+            <input type="text" class="form-control input-xs" placeholder="부서명" data-bind="value: searchDepartmentName">
+          </div>
+
+          <div class="col-md-4">
+            <label class="control-label text-right">부서명</label>
+            <input type="text" class="form-control input-xs" placeholder="부서명" data-bind="value: searchDepartmentName">
+          </div>
+
+          <div class="col-md-4">
+            <label class="control-label text-right">원청업체명</label>
+            <select id="searchContractSeq" class="form-control input-xs" name="searchContractSeq" data-bind="options: $root.contractSeqAllSelectOptions, optionsText:'text', optionsValue:'value', optionsCaption: '전체', value: searchContractSeq"></select>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <div class="col-md-4">
+            <label class="control-label text-right">사용여부</label>
+            <select class="form-control input-xs" data-bind="options: $root.useYnSelectOptions, optionsText:'text', optionsValue:'value', optionsCaption: '전체', value: searchUseYn"></select>
+          </div>
+          <div class="col-md-8">
+            <label class="control-label text-right"></label>
+            <div class="text-right">
+              <button type="button" class="btn btn-primary " data-bind="click: $root.search">검색<i class="glyphicon glyphicon-search position-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <form id="detailsForm" class="form-horizontal" action="#" data-bind="visible: detailsVM.isVisible">
+    <div class="panel panel-flat">
+      <div class="panel-heading">
+        <h5 class="panel-title"><i class="icon-checkmark3 position-left"></i> 세부정보</h5>
+        <div class="heading-elements">
+          <ul class="icons-list">
+            <li><a data-action="collapse"></a></li>
+          </ul>
+        </div>
+        <a class="heading-elements-toggle"><i class="icon-menu"></i></a>
+      </div>
+      <div class="panel-body" data-bind="with: detailsVM">
+        <div class="row" data-bind="with: data">
+          <fieldset>
+            <legend class="text-semibold" style="height:30px;">
+              <span class="col-md-8"><i class="icon-lock5 position-left"></i> 권한 관리 상세정보</span>
+            </legend>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="contractName">권한코드<span class="text-danger">*</span></label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" placeholder="권한코드" name="contractName" data-bind="value: contractName" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="zipcode">권한명<span class="text-danger">*</span></label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" placeholder="권한명" name="zipcode" data-bind="value: zipcode" maxlength="6" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="address">등록일<span class="text-danger">*</span></label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" placeholder="등록일" name="address" data-bind="value: address" />
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="ownerName">연결된 권한그룹</label>
+                <div class="col-md-8">
+                  <div class="form-group">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" checked="checked">
+                        HQADMIN-재난본부 관리자
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" checked="checked">
+                        BRANCHADMIN-소방서/관할안전센터 관리자
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" checked="checked">
+                        KEEPERADMIN-관계인
+                      </label>
+                    </div>
+                    <!-- <div class="checkbox">
+                      <label>
+                        <input type="checkbox" checked="checked">
+                        Checked default
+                      </label>
+                    </div> -->
+
+
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="chargerName">담당자명<span class="text-danger">*</span></label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" name="chargerName" data-bind="value: chargerName" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="phoneNo">담당자 일반전화</label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" name="phoneNo" data-bind="value: phoneNo" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="mobilePhoneNo">담당자 휴대폰번호<span class="text-danger">*</span></label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" name="mobilePhoneNo" data-bind="value: mobilePhoneNo" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="memo">메모</label>
+                <div class="col-md-8">
+                  <textarea id="memo" class="form-control input-xs" name="memo" data-bind="value: memo"></textarea>
+                </div>
+              </div> -->
+            </div>
+            <!--  ko if: $parent.isEditMode -->
+            <!-- <div class="col-md-6">
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="managerId">등록자ID</label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" name="managerId" data-bind="value: managerId" disabled="disabled" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="regDate">등록일</label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" name="regDate" data-bind="momentISO: regDate" disabled="disabled" />
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-6">
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="updManageId">수정자ID</label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" name="updManageId" data-bind="value: updManageId" disabled="disabled" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-md-4 control-label text-right" for="updDate">최종수정일</label>
+                <div class="col-md-8">
+                  <input type="text" class="form-control input-xs" name="updDate" data-bind="momentISO: updDate" disabled="disabled" />
+                </div>
+              </div>
+            </div> -->
+            <!-- /ko -->
+          </fieldset>
+        </div>
+        <div class="text-right" data-bind="visible: isCreateMode">
+          <button type="button" data-bind="click: cancel" class="btn btn-xs"><b><i class="icon-cross"></i></b> 취소</button>
+          <button type="button" data-bind="click: insertData" class="btn btn-primary btn-xs"><b><i class="icon-checkmark3"></i></b> 추가</button>
+        </div>
+        <div class="text-right paddingbottom20" data-bind="visible: isEditMode">
+          <button type="button" data-bind="click: cancel" class="btn btn-xs"><b><i class="icon-cross"></i></b> 취소</button>
+          <button type="button" data-bind="click: deleteData" class="btn btn-warning btn-xs"><b><i class="icon-minus3"></i></b> 삭제</button>
+          <button type="button" data-bind="click: updateData" class="btn btn-primary btn-xs"><b><i class="icon-checkmark3"></i></b> 수정</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>

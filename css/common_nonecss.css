@@ -1,0 +1,439 @@
+body { background-color: #fff;}
+
+/******************************************************************************
+ * Navigation Style
+ *****************************************************************************/
+.category-content{ padding: 0px; }
+.navigation li.active {
+	background-color: rgba(0,0,0,0.1);
+	color: #fff;
+}
+.navigation > li ul li a {
+	padding-left: 31px !important;
+}
+
+
+/******************************************************************************
+ * Header Style
+ *****************************************************************************/
+.page-header { margin: 0px; }
+.breadcrumb-line{ float: right; z-index: 10; background-color: transparent; border-bottom: none; padding: 15px 36px 15px 0;}
+.page-title { padding: 15px 36px 15px 0; }
+
+
+/******************************************************************************
+ * Common Style (Override limitless)
+ *****************************************************************************/
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding: 6px 10px;
+	line-height: 1.5384616;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}
+.table-set .pagesize { margin-bottom: 5px !important; }
+.table-set .totalpages { width: 100px; height: 30px; position: relative; padding-left: 5px; }
+.table-set .totalpages span{ position: absolute; bottom: 0px; font-weight: 600; }
+.table-set .totalpages font { color: #2196F3; }
+
+.text-semibold { font-weight: 600 !important }
+.text-subtitle { font-size: 13px; padding-left: 10px; }
+
+/* inline 체크/라디오 input과 label간격 조정 */
+.radio-inline, .checkbox-inline { padding-left: 20px !important; }
+.form-control-checkbox, .form-control-radio { height: 36px !important; padding: 0px !important; margin: 0px !important; }
+
+.breadcrumb-line .breadcrumb { margin: 0px !important;}
+
+/******************************************************************************
+ * Kendo Grid Header Align
+ *****************************************************************************/
+.align-left { text-align: left !important; }
+.align-center {text-align: center !important; }
+.align-right { text-align: right !important; }
+.valign-middle {vertical-align: middle !important;}
+
+/******************************************************************************
+ * Common Size
+ *****************************************************************************/
+.noborder { border: none !important; }
+
+.nopadding { padding: 0px !important;}
+.paddingtop0 { padding-top: 0px !important;}
+.paddingtop5 { padding-top: 5px !important;}
+.paddingtop10 { padding-top: 10px !important;}
+.paddingtop20 { padding-top: 20px !important;}
+.paddingleft0 { padding-left: 0px !important;}
+.paddingleft5 { padding-left: 5px !important;}
+.paddingleft10 { padding-left: 10px !important;}
+.paddingleft20 { padding-left: 20px !important;}
+.paddingright0 {padding-right: 0px !important;}
+.paddingright5 {padding-right: 5px !important;}
+.paddingright10 {padding-right: 10px !important;}
+.paddingright20 { padding-right: 20px !important;}
+.paddingbottom0 { padding-bottom: 0px !important;}
+.paddingbottom10 { padding-bottom: 10px !important;}
+.paddingbottom20 { padding-bottom: 20px !important;}
+
+.nomargin { margin: 0px !important;}
+.margintop5 { margin-top: 5px !important;}
+.margintop10 { margin-top: 10px !important;}
+.margintop20 { margin-top: 20px !important;}
+.marginleft0 { margin-left: 0px !important;}
+.marginleft5 { margin-left: 5px !important;}
+.marginleft10 { margin-left: 10px !important;}
+.marginleft20 { margin-left: 20px !important;}
+.marginright0 {margin-right: 0px !important;}
+.marginright5 {margin-right: 5px !important;}
+.marginright10 {margin-right: 10px !important;}
+.marginright20 { margin-right: 20px !important;}
+.marginbottom0 { margin-bottom: 0px !important;}
+.marginbottom5 { margin-bottom: 5px !important;}
+.marginbottom10 { margin-bottom: 10px !important;}
+.marginbottom20 { margin-bottom: 20px !important;}
+
+.col-100 { width: 100px !important; }
+.col-200 { width: 200px !important; }
+.col-300 { width: 300px !important; }
+.col-400 { width: 400px !important; }
+.col-500 { width: 500px !important; }
+.col-600 { width: 600px !important; }
+.col-700 { width: 700px !important; }
+.col-800 { width: 800px !important; }
+.col-900 { width: 900px !important; }
+.col-1000 { width: 1000px !important; }
+
+
+/******************************************************************************
+ * korearms 전용
+ *****************************************************************************/
+.label.bg_superadmin { background-color: #ff0000; margin-right: 5px !important;}
+.label.bg_systemadmin { background-color: #03A9F4; margin-right: 5px !important;}
+
+iframe {border: 1px solid #ddd;padding: 0px;}
+
+input[type=text].download-link { border: none; color: #1E88E5; padding: 0px; background-color: transparent; }
+input[type=text].download-link:hover { color: #166dba; }
+
+.html-contents {font-size:12px;font-family:Verdana,Geneva,sans-serif;margin-top:-1px;padding:1px .2em 0;word-wrap: break-word;-webkit-nbsp-mode: space;-.html-contents webkit-line-break: after-white-space;}
+.html-contents h1{font-size:2em;margin:.67em 0}
+.html-contents h2{font-size:1.5em}
+.html-contents h3{font-size:1.16em}
+.html-contents h4{font-size:1em}
+.html-contents h5{font-size:.83em}
+.html-contents h6{font-size:.7em}
+.html-contents p{margin:0 0 1em;}
+.html-contents .k-marker{display:none;}
+.html-contents .k-paste-container,.Apple-style-span{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.html-contents ul,ol{padding-left:2.5em}
+.html-contents span{-ms-high-contrast-adjust:none;}
+.html-contents a{color:#00a}
+.html-contents code{font-size:1.23em}
+.html-contents telerik\3Ascript{display: none;}
+.html-contents .k-table{table-layout:fixed;width:100%;border-spacing:0;margin: 0 0 1em;}
+.html-contents .k-table td{min-width:1px;padding:.2em .3em;}
+.html-contents .k-table,.k-table td{outline:0;border: 1px dotted #ccc;}
+.html-contents .k-table p{margin:0;padding:0;}
+.html-contents k\:script{display:none;}
+
+/** push/pushmng 발송화면 미리보기 */
+.pushimg {
+	position: relative;
+	height: 330px;
+	color: #fff;
+}
+.pushimg.ios.lock { background: url("../images/bg_ios_lock.jpg") no-repeat; }
+.pushimg.ios .ico { width: 21px; height: 21px; border-radius: 4px; }
+.pushimg.and .ico { width: 45px; height: 45px; border-radius: 6px; }
+.pushimg.ios.lock .ico { position: absolute; left: 22px; top: 218px; }
+.pushimg.ios.lock .title { position: absolute; left: 53px; top: 220px; width: 330px; font-size: 15px; font-weight: bold; }
+.pushimg.ios.lock .text { position: absolute; left: 53px; top: 240px; width: 330px; height: 54px; font-size: 14px; line-height: 18px; overflow: hidden; font-weight: normal;  }
+
+.pushimg.ios.noti { background: url("../images/bg_ios_notifi.jpg") no-repeat; }
+.pushimg.ios.noti .ico { position: absolute; left: 21px; top: 65px; }
+.pushimg.ios.noti .notiTitle { position: absolute; left: 53px; top: 65px; width: 330px; font-size: 14px; opacity: 0.65; font-weight: bold; }
+.pushimg.ios.noti .title { position: absolute; left: 53px; top: 100px; width: 330px; font-size: 14px; font-weight: bold; }
+.pushimg.ios.noti .text { position: absolute; left: 53px; top: 122px; width: 330px; height: 49px; font-size: 13px; line-height: 18px; overflow: hidden; font-weight: normal;  }
+
+.pushimg.ios.roll { background: url("../images/bg_ios_rolldown.jpg") no-repeat; }
+.pushimg.ios.roll .ico { position: absolute; left: 17px; top: 7px; }
+.pushimg.ios.roll .title { position: absolute; left: 48px; top: 8px; width: 330px; font-size: 13px; font-weight: bold; }
+.pushimg.ios.roll .text { position: absolute; left: 48px; top: 30px; width: 330px; height: 30px; font-size: 13px; line-height: 15px; overflow: hidden; font-weight: normal;  }
+
+.pushimg.ios.alert { background: url("../images/bg_alert.jpg") no-repeat; }
+.pushimg.ios.alert .ico { display: none; }
+.pushimg.ios.alert .title { position: absolute; left: 83px; top: 102px; width: 240px; font-size: 15px; text-align: center; color: #000; font-weight: bold; }
+.pushimg.ios.alert .text { position: absolute; left: 83px; top: 125px; width: 240px; height: 32px; font-size: 13px; line-height: 18px; overflow: hidden; font-weight: normal; text-align: center; color: #000; }
+
+.pushimg.and.noti { background: url("../images/bg_android_notification.jpg") no-repeat; }
+.pushimg.and.noti .ico { position: absolute; left: 11px; top: 121px; }
+.pushimg.and.noti .title { position: absolute; left: 64px; top: 118px; width: 324px; font-size: 20px; }
+.pushimg.and.noti .text { position: absolute; left: 65px; top: 149px; width: 324px; height: 16px; font-size: 14px; line-height: 18px; overflow: hidden; font-weight: normal; color: #9D9D9D }
+
+#previewContianer li.over {
+	text-decoration: none !important;
+    color: #333333 !important;
+    background-color: #f5f5f5 !important;
+}
+
+/******************************************************************************
+ * Bootstrap Override/Extends
+ *****************************************************************************/
+.btn-xxs,
+.btn-group-xxs > .btn {
+  padding: 3px 7px;
+  font-size: 12px;
+  line-height: 1.6666667;
+  border-radius: 2px;
+}
+input[type="checkbox"].form-control {
+	width: auto !important;
+	margin: 0px !important;
+}
+
+/** col-xl-* 추가 (for rangeDatepicker) */
+.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 1400px) {
+  .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    float: left;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+  .col-xl-11 {
+    width: 91.66666667%;
+  }
+  .col-xl-10 {
+    width: 83.33333333%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-8 {
+    width: 66.66666667%;
+  }
+  .col-xl-7 {
+    width: 58.33333333%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-5 {
+    width: 41.66666667%;
+  }
+  .col-xl-4 {
+    width: 33.33333333%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-2 {
+    width: 16.66666667%;
+  }
+  .col-xl-1 {
+    width: 8.33333333%;
+  }
+}
+
+@media (max-width: 1399px) {
+  .form-group div[class*="col-xl-"]:not(.control-label) + div[class*="col-xl-"] {
+    margin-top: 20px;
+  }
+}
+/******************************************************************************
+ * Kendo UI Override/Extends
+ *****************************************************************************/
+ /* 그리드 */
+.k-grid tbody tr { height: 30px; }
+.k-grid td { white-space: nowrap; }
+
+ /* 데이트픽커 */
+.k-widget.k-datepicker, .k-widget.k-datetimepicker {
+	width: 100% !important;
+	display: inline-block !important;
+}
+@media (min-width: 1025px)
+{
+	.fixed-datepicker-width.k-widget.k-datepicker, .fixed-datepicker-width.k-widget.k-datetimepicker {
+		width: 200px !important;
+	}
+}
+
+.k-autocomplete.k-state-default, .k-picker-wrap.k-state-default, .k-numeric-wrap.k-state-default, .k-dropdown-wrap.k-state-default, .k-multiselect.k-header {
+	border-color: #ddd !important;
+}
+
+.k-picker-wrap {
+	border: 1px solid #ddd;
+	border-radius: 2px !important;
+	height: 30px !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+.k-picker-wrap input[type=text] {
+	font-size: 13px !important;
+	text-indent: 10px !important;
+	height: 24px !important;
+}
+.k-icon.k-i-calendar, .k-icon.k-i-clock {
+	vertical-align: bottom;
+}
+
+/* 페이지 width가 좁아졌을 때, kendo grid pager 페이지버튼(select)이 아래로 떨어지는 이슈 수정 */
+@media only screen and (max-width: 798px) {
+	.k-webkit .k-pager-numbers .k-current-page {
+		display: block;
+		border-left: 0;
+		-webkit-transform: none !important;
+		-moz-transform: none !important;
+		transform: none !important;
+	}
+	.k-webkit .k-pager-numbers.k-state-expanded .k-current-page {
+		-webkit-transform:translatey(100%) !important;
+		-moz-transform:translatey(100%) !important;
+		transform:translatey(100%) !important;
+	}
+}
+
+/* Kendo Editor 폰트선택 드롭다운리스트 영역에 overflow-y 추가 (영역 밖으로 리스트가 뿌려지는 이슈 수정) */
+.k-list-container.k-popup .k-list-scroller {
+	overflow-y: auto !important;
+}
+
+.navbar-inverse1 {
+  background-color: #672e24;
+  border-color: #b76016;
+}
+
+.navbar-inverse1 a {
+  color: #fff;
+}
+
+.sidebar1 {
+  background-color: #3a1919;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .sidebar1 {
+    display: table-cell;
+    vertical-align: top;
+    width: 260px;
+  }
+}
+
+.sidebar1 .navigation li a {
+  color: #fff;
+  display: block;
+  -webkit-transition: background 0.15s linear, color 0.15s linear;
+  -o-transition: background 0.15s linear, color 0.15s linear;
+  transition: background 0.15s linear, color 0.15s linear;
+}
+
+.navbar-inverse2 {
+  background-color: #384843;
+  border-color: #b76016;
+}
+
+.navbar-inverse2 a {
+  color: #fff;
+}
+
+.sidebar2 {
+  background-color: #113a25;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .sidebar2 {
+    display: table-cell;
+    vertical-align: top;
+    width: 260px;
+  }
+}
+
+.sidebar2 .navigation li a {
+  color: #fff;
+  display: block;
+  -webkit-transition: background 0.15s linear, color 0.15s linear;
+  -o-transition: background 0.15s linear, color 0.15s linear;
+  transition: background 0.15s linear, color 0.15s linear;
+}
+
+.navbar-inverse3 {
+  background-color: #0c0e2d;
+  border-color: #b76016;
+}
+
+.navbar-inverse3 a {
+  color: #fff;
+}
+
+.sidebar3 {
+  background-color: #0a1921;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .sidebar3 {
+    display: table-cell;
+    vertical-align: top;
+    width: 260px;
+  }
+}
+
+.sidebar3 .navigation li a {
+  color: #fff;
+  display: block;
+  -webkit-transition: background 0.15s linear, color 0.15s linear;
+  -o-transition: background 0.15s linear, color 0.15s linear;
+  transition: background 0.15s linear, color 0.15s linear;
+}
+
+.navbar-inverse4 {
+  background-color: #121ba2;
+  border-color: #b76016;
+}
+
+.navbar-inverse4 a {
+  color: #fff;
+}
+
+.sidebar4 {
+  background-color: #000550;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .sidebar4 {
+    display: table-cell;
+    vertical-align: top;
+    width: 260px;
+  }
+}
+
+.sidebar4 .navigation li a {
+  color: #fff;
+  display: block;
+  -webkit-transition: background 0.15s linear, color 0.15s linear;
+  -o-transition: background 0.15s linear, color 0.15s linear;
+  transition: background 0.15s linear, color 0.15s linear;
+}
