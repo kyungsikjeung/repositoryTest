@@ -121,8 +121,9 @@ function DetailsVM(detailsURL, onDetailsChanged) {
         self.data(dataCloned);
 
         if(self.isEditMode() || self.isCreateMode()){
-            alert("권한그룹 가지고 오기");
-            // 권한 그룹을 가지고 옴
+            alert("권한그룹 서버 가지고 오기");
+			// 권한 그룹을 가지고 옴
+			alert("키:"+data.authorCode)
             self.getRoleGroup(data.authorCode); 
         }
 	};
@@ -147,8 +148,7 @@ function DetailsVM(detailsURL, onDetailsChanged) {
     self.getRoleGroup = function(pk){
         // 1. 서버 버젼
         // 2. 로컬버젼
-
-
+		alert("서버에서 데이터 값을 가지고 와 self.totalRoleGroupList 에 저장.")
         // 전체 권한 리스트 
         self.totalRoleGroupList=
         [ 
@@ -159,12 +159,23 @@ function DetailsVM(detailsURL, onDetailsChanged) {
 
         // 권한 그룹 소유 여부()
         // pk = AuthorCode
-        if(pk != null){
+        if(pk != null){ // 수정모드 라면
             alert("기존권한 그룹 체크 상태확인(수정모드)");
-            // TODO : 권한의 권한 그룹 상태 ajax 로 pk 값으로 권한 그룹 체크 상태 가지고 오기
-            var checkedRoleGroupList = [{authorgroupCode: "111"},{authorgroupCode: "111"}]
-            // 
-            
+            // TODO : 현재 authorCode에 해당하는  authorGroupCode 가지고 오기 (중간테이블)
+            var checkedRoleGroupList = [{authorgroupCode: "111"},{authorgroupCode: "222"}]
+            // self.totalRoleGroupList에 그룹이 있다면 
+			
+			var totAuthorCodeValues = _.pluck(self.totalRoleGroupList,'authorgroupCode');
+			var checkedAuthroCodeValues = _.pluck(checkedRoleGroupList,'authorgroupCode');
+			var checkedState =_.map(totAuthorCodeValues,row=> checkedAuthroCodeValues.indexOf(row) >= 0 ? 1: 0); // 선택된 roleGroup이 있다면 1 아니면 0 [ 1 1 1 0]
+			// 주어진 정보 : 전체 롤그룹 (self.totalRoleGroupList)
+			// 주어진 정보 : 체크 상태(checkedState))
+			$( "#roleGroupChkSts" ).append( "<p>Test</p>" );
+
+
+
+
+			//console.table( checkedState);
             
         }else{
             alert("기존 권한 그룹 여부 x(생성 모드)")
